@@ -25,6 +25,7 @@ body {
 
 header {
     position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../easy.jpg);
 }
 
 nav {
@@ -58,6 +59,7 @@ nav {
 .hero {
     padding: 50px 20px;
     text-align: center;
+    background-color: antiquewhite;
 }
 
 .cta-button {
@@ -94,13 +96,14 @@ nav {
     background: var(--card-bg);
     box-shadow: 0 2px 5px var(--shadow);
     transition: transform 0.3s ease;
+    background-color: azure;
 }
 
 .course-overview:hover, .benefits:hover, .curriculum:hover, .instructor:hover, .testimonials:hover, .faq:hover {
     transform: translateY(-5px);
 }
 
-h2 {
+h1 {
     color: #4CAF50;
     border-bottom: 2px solid #4CAF50;
     padding-bottom: 5px;
@@ -151,7 +154,7 @@ footer {
     <header>
         <nav>
             <div class="container">
-                <h1>Online Course</h1>
+                <h2>Online Course</h2>
                 <ul class="nav-links">
                     <li><a href="#overview">Overview</a></li>
                     <li><a href="#benefits">Benefits</a></li>
@@ -164,7 +167,7 @@ footer {
         </nav>
         <div class="hero">
             <div class="container">
-                <h2>Master Digital Marketing in Just 8 Weeks!</h2>
+                <h1>Master Digital Marketing in Just 8 Weeks!</h1>
                 <p>Unlock the skills you need to boost your career and grow your business.</p>
                 <a href="#" class="cta-button">Join the Course Now</a>
             </div>
@@ -173,8 +176,8 @@ footer {
 
     <main class="content">
         <section id="overview" class="course-overview">
-            <h2>Course Overview</h2>
-            <p>This course covers SEO, social media marketing, content marketing, and email marketing.</p>
+            <h1>Course Overview</h1>
+            <p>This course covers SEO. <br> Social media marketing. <br> Content Marketing. <br> Email Marketing.</p>
             <video controls>
                 <source src="intro-video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -182,7 +185,7 @@ footer {
         </section>
 
         <section id="benefits" class="benefits">
-            <h2>Key Benefits</h2>
+            <h1>Key Benefits</h1>
             <ul>
                 <li>Certification upon completion</li>
                 <li>Hands-on projects</li>
@@ -191,7 +194,7 @@ footer {
         </section>
 
         <section id="curriculum" class="curriculum">
-            <h2>Course Curriculum</h2>
+            <h1>Course Curriculum</h1>
             <ul>
                 <li>Week 1: Introduction to Digital Marketing</li>
                 <li>Week 2: SEO Basics</li>
@@ -205,7 +208,7 @@ footer {
         </section>
 
         <section id="instructor" class="instructor">
-            <h2>Meet Your Instructor</h2>
+            <h1>Meet Your Instructor</h1>
             <div class="instructor-details">
                 <img src="instructor.jpg" alt="Instructor" class="instructor-image">
                 <p><strong>John Smith</strong><br>Digital Marketing Expert with 10 years of experience.</p>
@@ -213,14 +216,14 @@ footer {
         </section>
 
         <section id="testimonials" class="testimonials">
-            <h2>What Our Students Say</h2>
+            <h1>What Our Students Say</h1>
             <blockquote>
                 <p>"This course transformed my understanding of digital marketing!" - Jane Doe</p>
             </blockquote>
         </section>
 
         <section id="faq" class="faq">
-            <h2>Frequently Asked Questions</h2>
+            <h1>Frequently Asked Questions</h1>
             <dl>
                 <dt>Q: What is the course duration?</dt>
                 <dd>A: The course lasts for 8 weeks.</dd>
